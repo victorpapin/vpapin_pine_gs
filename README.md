@@ -1,6 +1,6 @@
 # vpapin_pine_gs
 
-!***Under revision******!
+*Under revision*
 
 These scripts are related to:
 
