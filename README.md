@@ -1,5 +1,7 @@
 # vpapin_pine_gs
 
+**Under revision**
+
 These scripts are related to:
 
 Papin et al. (2024) [bioRxiv / Under revision Annals of Forest Science]
