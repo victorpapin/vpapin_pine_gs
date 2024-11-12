@@ -10,6 +10,13 @@ load(paste(path,"founderBIG.RData", sep="/"))
 ##############################################
 
 SP           = SimParam$new(founderGenomes)
+phenoMean       = 6.81    # Extract from data base 
+heritability    = 0.33    # Extract from data base (stable across generations)
+CV              = 0.0505  # Extract from data base
+genVar          = (CV * phenoMean)^2  # sqrt(variance)/meanP = CV 
+accuracy.BV.EBV = 0.97    # Extract from data base 
+SP$addTraitA(nQtlPerChr = nQTLPerChr, mean = phenoMean, var = genVar, name="Ht")
+SP$setVarE(h2=heritability)
 popP0        = newPop(founderGenomes)
 
 ##############################################
