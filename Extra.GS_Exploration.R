@@ -4,55 +4,55 @@ library(AlphaSimR)
 for(index in 1:4800){
   
   if(index %in% c(001:100)  ){ h2=0.13 ;  NSNP = 1 ; NTSET = 400  }
-  if(index %in% c(101:200)  ){ h2=0.13 ;  NSNP = 1 ; NTSET = 650  }
-  if(index %in% c(201:300)  ){ h2=0.13 ;  NSNP = 1 ; NTSET = 1700 }
-  if(index %in% c(301:400)  ){ h2=0.13 ;  NSNP = 1 ; NTSET = 2800 }
+  if(index %in% c(101:200)  ){ h2=0.13 ;  NSNP = 1 ; NTSET = 600  }
+  if(index %in% c(201:300)  ){ h2=0.13 ;  NSNP = 1 ; NTSET = 1600 }
+  if(index %in% c(301:400)  ){ h2=0.13 ;  NSNP = 1 ; NTSET = 2600 }
   if(index %in% c(401:500)  ){ h2=0.13 ;  NSNP = 2 ; NTSET = 400  }
-  if(index %in% c(501:600)  ){ h2=0.13 ;  NSNP = 2 ; NTSET = 650  }
-  if(index %in% c(601:700)  ){ h2=0.13 ;  NSNP = 2 ; NTSET = 1700 }
-  if(index %in% c(701:800)  ){ h2=0.13 ;  NSNP = 2 ; NTSET = 2800 }
+  if(index %in% c(501:600)  ){ h2=0.13 ;  NSNP = 2 ; NTSET = 600  }
+  if(index %in% c(601:700)  ){ h2=0.13 ;  NSNP = 2 ; NTSET = 1600 }
+  if(index %in% c(701:800)  ){ h2=0.13 ;  NSNP = 2 ; NTSET = 2600 }
   if(index %in% c(801:900)  ){ h2=0.13 ;  NSNP = 3 ; NTSET = 400  }
-  if(index %in% c(901:1000) ){ h2=0.13 ;  NSNP = 3 ; NTSET = 650  }
-  if(index %in% c(1001:1100)){ h2=0.13 ;  NSNP = 3 ; NTSET = 1700 }
-  if(index %in% c(1101:1200)){ h2=0.13 ;  NSNP = 3 ; NTSET = 2800 }
+  if(index %in% c(901:1000) ){ h2=0.13 ;  NSNP = 3 ; NTSET = 600  }
+  if(index %in% c(1001:1100)){ h2=0.13 ;  NSNP = 3 ; NTSET = 1600 }
+  if(index %in% c(1101:1200)){ h2=0.13 ;  NSNP = 3 ; NTSET = 2600 }
   if(index %in% c(1201:1300)){ h2=0.13 ;  NSNP = 4 ; NTSET = 400  }
-  if(index %in% c(1301:1400)){ h2=0.13 ;  NSNP = 4 ; NTSET = 650  }
-  if(index %in% c(1401:1500)){ h2=0.13 ;  NSNP = 4 ; NTSET = 1700 }
-  if(index %in% c(1501:1600)){ h2=0.13 ;  NSNP = 4 ; NTSET = 2800 }
+  if(index %in% c(1301:1400)){ h2=0.13 ;  NSNP = 4 ; NTSET = 600  }
+  if(index %in% c(1401:1500)){ h2=0.13 ;  NSNP = 4 ; NTSET = 1600 }
+  if(index %in% c(1501:1600)){ h2=0.13 ;  NSNP = 4 ; NTSET = 2600 }
   
   if(index %in% c(1601:1700)){ h2=0.33 ;  NSNP = 1 ; NTSET = 400  }
-  if(index %in% c(1701:1800)){ h2=0.33 ;  NSNP = 1 ; NTSET = 650  }
-  if(index %in% c(1801:1900)){ h2=0.33 ;  NSNP = 1 ; NTSET = 1700 }
-  if(index %in% c(1901:2000)){ h2=0.33 ;  NSNP = 1 ; NTSET = 2800 }
+  if(index %in% c(1701:1800)){ h2=0.33 ;  NSNP = 1 ; NTSET = 600  }
+  if(index %in% c(1801:1900)){ h2=0.33 ;  NSNP = 1 ; NTSET = 1600 }
+  if(index %in% c(1901:2000)){ h2=0.33 ;  NSNP = 1 ; NTSET = 2600 }
   if(index %in% c(2001:2100)){ h2=0.33 ;  NSNP = 2 ; NTSET = 400  }
-  if(index %in% c(2101:2200)){ h2=0.33 ;  NSNP = 2 ; NTSET = 650  }
-  if(index %in% c(2201:2300)){ h2=0.33 ;  NSNP = 2 ; NTSET = 1700 }
-  if(index %in% c(2301:2400)){ h2=0.33 ;  NSNP = 2 ; NTSET = 2800 }
+  if(index %in% c(2101:2200)){ h2=0.33 ;  NSNP = 2 ; NTSET = 600  }
+  if(index %in% c(2201:2300)){ h2=0.33 ;  NSNP = 2 ; NTSET = 1600 }
+  if(index %in% c(2301:2400)){ h2=0.33 ;  NSNP = 2 ; NTSET = 2600 }
   if(index %in% c(2401:2500)){ h2=0.33 ;  NSNP = 3 ; NTSET = 400  }
   if(index %in% c(2501:2600)){ h2=0.33 ;  NSNP = 3 ; NTSET = 650  }
-  if(index %in% c(2601:2700)){ h2=0.33 ;  NSNP = 3 ; NTSET = 1700 }
-  if(index %in% c(2701:2800)){ h2=0.33 ;  NSNP = 3 ; NTSET = 2800 }
+  if(index %in% c(2601:2700)){ h2=0.33 ;  NSNP = 3 ; NTSET = 1600 }
+  if(index %in% c(2701:2800)){ h2=0.33 ;  NSNP = 3 ; NTSET = 2600 }
   if(index %in% c(2801:2900)){ h2=0.33 ;  NSNP = 4 ; NTSET = 400  }
-  if(index %in% c(2901:3000)){ h2=0.33 ;  NSNP = 4 ; NTSET = 650  }
-  if(index %in% c(3001:3100)){ h2=0.33 ;  NSNP = 4 ; NTSET = 1700 }
-  if(index %in% c(3101:3200)){ h2=0.33 ;  NSNP = 4 ; NTSET = 2800 }
+  if(index %in% c(2901:3000)){ h2=0.33 ;  NSNP = 4 ; NTSET = 600  }
+  if(index %in% c(3001:3100)){ h2=0.33 ;  NSNP = 4 ; NTSET = 1600 }
+  if(index %in% c(3101:3200)){ h2=0.33 ;  NSNP = 4 ; NTSET = 2600 }
   
   if(index %in% c(3201:3300)){ h2=0.50 ;  NSNP = 1 ; NTSET = 400  }
-  if(index %in% c(3301:3400)){ h2=0.50 ;  NSNP = 1 ; NTSET = 650  }
-  if(index %in% c(3401:3500)){ h2=0.50 ;  NSNP = 1 ; NTSET = 1700 }
-  if(index %in% c(3501:3600)){ h2=0.50 ;  NSNP = 1 ; NTSET = 2800 }
+  if(index %in% c(3301:3400)){ h2=0.50 ;  NSNP = 1 ; NTSET = 600  }
+  if(index %in% c(3401:3500)){ h2=0.50 ;  NSNP = 1 ; NTSET = 1600 }
+  if(index %in% c(3501:3600)){ h2=0.50 ;  NSNP = 1 ; NTSET = 2600 }
   if(index %in% c(3601:3700)){ h2=0.50 ;  NSNP = 2 ; NTSET = 400  }
-  if(index %in% c(3701:3800)){ h2=0.50 ;  NSNP = 2 ; NTSET = 650  }
-  if(index %in% c(3801:3900)){ h2=0.50 ;  NSNP = 2 ; NTSET = 1700 }
-  if(index %in% c(3901:4000)){ h2=0.50 ;  NSNP = 2 ; NTSET = 2800 }
+  if(index %in% c(3701:3800)){ h2=0.50 ;  NSNP = 2 ; NTSET = 600  }
+  if(index %in% c(3801:3900)){ h2=0.50 ;  NSNP = 2 ; NTSET = 1600 }
+  if(index %in% c(3901:4000)){ h2=0.50 ;  NSNP = 2 ; NTSET = 2600 }
   if(index %in% c(4001:4100)){ h2=0.50 ;  NSNP = 3 ; NTSET = 400  }
-  if(index %in% c(4101:4200)){ h2=0.50 ;  NSNP = 3 ; NTSET = 650  }
-  if(index %in% c(4201:4300)){ h2=0.50 ;  NSNP = 3 ; NTSET = 1700 }
-  if(index %in% c(4301:4400)){ h2=0.50 ;  NSNP = 3 ; NTSET = 2800 }
+  if(index %in% c(4101:4200)){ h2=0.50 ;  NSNP = 3 ; NTSET = 600  }
+  if(index %in% c(4201:4300)){ h2=0.50 ;  NSNP = 3 ; NTSET = 1600 }
+  if(index %in% c(4301:4400)){ h2=0.50 ;  NSNP = 3 ; NTSET = 2600 }
   if(index %in% c(4401:4500)){ h2=0.50 ;  NSNP = 4 ; NTSET = 400  }
-  if(index %in% c(4501:4600)){ h2=0.50 ;  NSNP = 4 ; NTSET = 650  }
-  if(index %in% c(4601:4700)){ h2=0.50 ;  NSNP = 4 ; NTSET = 1700 }
-  if(index %in% c(4701:4800)){ h2=0.50 ;  NSNP = 4 ; NTSET = 2800 }
+  if(index %in% c(4501:4600)){ h2=0.50 ;  NSNP = 4 ; NTSET = 600  }
+  if(index %in% c(4601:4700)){ h2=0.50 ;  NSNP = 4 ; NTSET = 1600 }
+  if(index %in% c(4701:4800)){ h2=0.50 ;  NSNP = 4 ; NTSET = 2600 }
   
   
   if(h2==0.13){load("BreedingProgramG2_0.13.RData")}
